@@ -1,0 +1,17 @@
+body {
+  background-color: #ffffcc;
+}
+h1 {
+  color: #000099;
+  font-family: cursive;
+}
+p {
+  text-align: justify;
+  font-family: sans-serif;
+  font-size: 18px;
+  width: 800px;
+}
+li {
+  font-weight: bold;
+  text-decoration: underline;
+}
