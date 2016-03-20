@@ -1,16 +1,16 @@
-div#big {
+#big {
   position: fixed;
   width: 400px;
   height: 400px;
 }
-div.target {
+.target {
   color: blue;
   border-radius: 50%;
   border: 1px;
   border-color: black;
   position: absolute;
 }
-div.target:nth-child(1){
+.target:nth-child(1){
   height: 100%;
   width: 100%;
   background-color: red;
@@ -20,7 +20,7 @@ div.target:nth-child(1){
   top: 0px;
 
 }
-div.target:nth-child(2){
+.target:nth-child(2){
   height: 80%;
   width: 80%;
   background-color: white;
@@ -30,7 +30,7 @@ div.target:nth-child(2){
   top: 10%;
 
 }
-div.target:nth-child(3){
+.target:nth-child(3){
   height: 60%;
   width: 60%;
   background-color: red;
@@ -40,7 +40,7 @@ div.target:nth-child(3){
   top: 20%;
 
 }
-div.target:nth-child(4){
+.target:nth-child(4){
   height: 40%;
   width: 40%;
   background-color: white;
@@ -50,7 +50,7 @@ div.target:nth-child(4){
   top: 30%;
 
 }
-div.target:nth-child(5){
+.target:nth-child(5){
   height: 20%;
   width: 20%;
   background-color: red;

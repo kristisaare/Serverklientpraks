@@ -15,5 +15,19 @@
 
   </div>
 
+<script>
+  window.onload = function() {
+    var target = document.getElementById('big')
+    target.onclick=function(){
+      console.log(target);
+      var top = Math.random()*600
+      var left = Math.random()*800
+      target.style.top = top+"px";
+      target.style.left = left+"px";
+
+    }
+  }
+</script>
+
 </body>
 </html>
