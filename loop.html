@@ -9,6 +9,33 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<script type="text/javascript">
 
+$(document).ready(function(){
+	$('li').first().addClass('active')
+	$("#next").click(function(){
+		var activeItem = $(".active")
+		$('li').removeClass('active')
+
+		if (activeItem.is(":last-child")) {
+			$('li').first().addClass('active')
+		} else {
+			activeItem.next().addClass('active')
+		}
+	});
+
+	$("#prev").click(function(){
+		var activeItem = $(".active")
+		$('li').removeClass('active')
+
+		if (activeItem.is(":first-child")) {
+			$('li').last().addClass('active')
+		} else {
+			activeItem.prev().addClass('active')
+		}
+
+	});
+
+});
+
 	</script>
 </head>
 <body>
